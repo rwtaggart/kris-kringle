@@ -1,0 +1,8 @@
+#!/usr/bin/osascript
+# Applescript
+
+# Simple example:
+# display dialog "Hello, world"
+
+do shell script "/usr/local/bin/python3 /Users/richard/home-workspace/kk-randomizer/gen_list.py --gui $@"
+
